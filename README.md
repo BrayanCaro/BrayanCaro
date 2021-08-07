@@ -8,4 +8,4 @@
 - Interested on Web Development proyects 👀
 - Playing with IA 👽
 
-<img src="https://github.com/BrayanCaro/BrayanCaro/blob/feat/svg-animation/goo.svg">
+<img src="https://github.com/BrayanCaro/BrayanCaro/blob/main/goo.svg" alt="Blob animation">
