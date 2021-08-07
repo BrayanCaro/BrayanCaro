@@ -17,9 +17,9 @@
     </filter>
     <g filter="url(#goo)">
         <circle cx="50%" cy="20%" r="30" style="--rotate: -1turn; --delay: .1s"/>
-        <circle cx="20%" cy="50%" r="25" style="--delay: .2s"/>
-        <circle cx="20%" cy="50%" r="25" style="--delay: 30ms; --shift: 10px"/>
-        <circle cx="50%" cy="50%" r="24" style="--shift: -17%; --delay: .5s"/>
-        <circle cx="50%" cy="70%" r="32" style="--rotate: -.6turn; --shift: -17%; --delay: .4s"/>
+<!--        <circle cx="20%" cy="50%" r="25" style="&#45;&#45;delay: .2s"/>-->
+<!--        <circle cx="20%" cy="50%" r="25" style="&#45;&#45;delay: 30ms; &#45;&#45;shift: 10px"/>-->
+<!--        <circle cx="50%" cy="50%" r="24" style="&#45;&#45;shift: -17%; &#45;&#45;delay: .5s"/>-->
+<!--        <circle cx="50%" cy="70%" r="32" style="&#45;&#45;rotate: -.6turn; &#45;&#45;shift: -17%; &#45;&#45;delay: .4s"/>-->
     </g>
 </svg>
