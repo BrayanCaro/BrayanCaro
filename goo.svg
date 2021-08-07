@@ -1,4 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+    <defs>
+        <defs>
+            <linearGradient id="goo-gradient" gradientTransform="rotate(90)">
+                <stop offset="5%" stop-color="rgb(171, 102, 255)"/>
+                <stop offset="95%" stop-color="rgb(116, 182, 247)"/>
+            </linearGradient>
+            <linearGradient id="goo-dark" gradientTransform="rotate(90)">
+                <stop offset="5%" stop-color="rgb(83, 94, 161)"/>
+                <stop offset="95%" stop-color="rgb(188, 14, 107)"/>
+            </linearGradient>
+        </defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+            <feColorMatrix values='1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 12 -6'/>
+        </filter>
+    </defs>
     <style>
         @keyframes move {
         50% {
@@ -11,12 +27,12 @@
         animation: move ease-in-out 7s infinite alternate var(--delay, 0ms);
         transform-origin: 50%;
         }
+
+        @media (prefers-color-scheme: dark) {
+        circle { fill: url(#goo-dark); }
+        }
     </style>
-    <filter id="goo">
-        <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
-        <feColorMatrix values='1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 12 -6'/>
-    </filter>
-    <g filter="url(#goo)">
+    <g filter="url(#goo)" fill="url(#goo-gradient)">
         <circle cx="50%" cy="20%" r="30" style="--rotate: -1turn; --delay: .1s"/>
         <circle cx="20%" cy="50%" r="25" style="--delay: .2s"/>
         <circle cx="20%" cy="50%" r="25" style="--delay: 30ms; --shift: 10px"/>
