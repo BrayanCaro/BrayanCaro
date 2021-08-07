@@ -7,3 +7,5 @@
 - Learning **Kotling**
 - Interested on Web Development proyects 👀
 - Playing with IA 👽
+
+<img src="https://github.com/BrayanCaro/BrayanCaro/blob/feat/svg-animation/goo.svg">
