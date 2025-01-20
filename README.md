@@ -1,8 +1,6 @@
-### Hi! 🌺
-
-- Learning **Kotling**
-- Interested on Web Development proyects 👀
-- Playing with PHP 👾
+<div align="center">
+  <img src="https://duolingo-stats-card.vercel.app/api?username=BrayanCarowi&theme=github-dark&sort=xp" alt="Duolingo Stats"/>
+</div>
 
 <div align="center">
   <img src="https://github.com/BrayanCaro/BrayanCaro/blob/main/goo.svg" alt="Blob animation" width="500">
